@@ -1,0 +1,99 @@
+html {
+}
+
+body {
+    font-family: "Montserrat",sans-serif;
+}
+
+a {
+    color: white;
+}
+
+img {
+    width: 50%;
+}
+
+a:link, a:visited {
+    color: white;
+}
+
+.messenger-icon-text {
+    margin-left: 8px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0,23,45,0.75);
+    color: white;
+    padding: 8px;
+    display: flex;
+    font-weight: bold;
+    flex-direction: row;
+    align-items: center;
+}
+
+.image-background {
+    background-image: url('../images/water.jpg');
+    background-size: cover;
+}
+
+.marlins-logo {
+    width: 300px;
+}
+
+.whatsapp-icon {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.blue-row {
+    padding: 32px;
+    color: white;
+    background-color: #00172d;
+    text-align: center;
+}
+
+.gray-row {
+    padding: 32px;
+    min-height: 200px;
+    color: white;
+    background-color: #192e42;
+    text-align: center;
+}
+
+.footer {
+    padding: 16px;
+    height: 100px;
+    background-color: #555;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+
+}
+
+.text {
+
+}
+
+.row-text-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
